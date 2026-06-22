@@ -1,0 +1,27 @@
+[
+    {
+        "query_id": "q1",
+        "query_text": "menjatuhkan pidana terhadap terdakwa sudarso, s.e. dengan pidanapenjara selama 9 (sembilan) tahun dikurangi selama terdakwa beradadalam tahanan, denga",
+        "ground_truth": "case_001"
+    },
+    {
+        "query_id": "q2",
+        "query_text": "menjatuhkan pidana terhadap terdakwa reny triana, s.e. denganpidana penjara selama 8 (delapan) tahun 6 (enam) bulan dikurangi selamahalaman 2 dari 115",
+        "ground_truth": "case_002"
+    },
+    {
+        "query_id": "q3",
+        "query_text": "menjatuhkan pidana terhadap terdakwa ach. qothrol ghoitsromadhon bin moh. romadhon dengan pidana penjara selama 8 (delapan)tahun dikurangi selama terd",
+        "ground_truth": "case_003"
+    },
+    {
+        "query_id": "q4",
+        "query_text": "menjatuhkan pidana kepada terdakwa i mochamad cholidi aliasmohamad cholidi dengan pidana penjara selama 4 (empat) tahun dan 3(tiga) bulan dan pidana d",
+        "ground_truth": "case_004"
+    },
+    {
+        "query_id": "q5",
+        "query_text": "menjatuhkan pidana terhadap mereka terdakwa i sumarsono binsadiman dan terdakwa ii suwarno bin sastro dimeja towo denganpidana penjara selama 1 (satu)",
+        "ground_truth": "case_005"
+    }
+]

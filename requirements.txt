@@ -1,0 +1,8 @@
+# Tahap 1: Membangun Case Base
+pdfminer.six>=20221105
+pandas>=2.0.0
+
+# Tahap 2 & 3: Representasi & Retrieval
+scikit-learn>=1.2.0
+transformers>=4.30.0
+torch>=2.0.0
