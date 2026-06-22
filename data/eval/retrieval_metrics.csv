@@ -1,2 +1,2 @@
 Model,Accuracy,Precision,Recall,F1_Score
-TF-IDF + Cosine Similarity,1.0,1.0,1.0,1.0
+TF-IDF + Cosine Similarity (Prediksi Pasal),0.1111111111111111,0.044444444444444446,0.1111111111111111,0.06349206349206349
