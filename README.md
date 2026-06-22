@@ -21,7 +21,7 @@ Sesuai dengan ketentuan tugas, struktur repositori ini terdiri dari:
 │   ├── processed/    # Data terstruktur hasil ekstraksi metadata dan fitur (cases.csv)
 │   ├── raw/          # File teks mentah (.txt) hasil konversi dari PDF
 │   └── results/      # Hasil prediksi dari tahap Solution Reuse (predictions.csv)
-├── notebooks/        # Kumpulan script Python untuk tiap tahapan CBR (Tahap 1 s/d 5)
+├── notebooks/        # Kumpulan script Python untuk tiap tahapan CBR (Tahap 1 s/d 5 + Jupyter Notebook untuk Visualisasi dan Laporan)
 ├── .gitignore        # Mengabaikan file yang tidak perlu di-push
 ├── README.md         # Dokumentasi petunjuk instalasi dan eksekusi
 └── requirements.txt  # Daftar library Python yang dibutuhkan
@@ -74,6 +74,14 @@ Tahap ini menguji akurasi keseluruhan sistem retrieval dan prediksi. Metrik yang
 ```bash
 python notebooks\05_evaluation.py
 ```
+
+### 6. Laporan Visualisasi Akhir (Jupyter Notebook)
+Tahap ini merangkum semua tabel metrik, membandingkannya dengan metode lain (SVM), dan menampilkan visualisasi *Bar Chart*. Di dalamnya juga memuat *Error Analysis* yang menjelaskan alasan kegagalan prediksi mesin.
+Untuk membukanya:
+```bash
+jupyter notebook notebooks\06_visualisasi_laporan.ipynb
+```
+*(Atau buka langsung file tersebut melalui VS Code , lalu tekan tombol "Run All")*
 
 ---
 **Catatan:** Pastikan memiliki minimal 30 dokumen PDF putusan pengadilan di dalam folder `data/pdf/` sebelum memulai pipeline ini.

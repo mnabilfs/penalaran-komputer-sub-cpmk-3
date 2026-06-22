@@ -6,3 +6,7 @@ pandas>=2.0.0
 scikit-learn>=1.2.0
 transformers>=4.30.0
 torch>=2.0.0
+
+# Tahap 5: Laporan & Visualisasi
+matplotlib>=3.5.0
+jupyter>=1.0.0
