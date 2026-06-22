@@ -76,4 +76,4 @@ python notebooks\05_evaluation.py
 ```
 
 ---
-**Catatan:** Pastikan Anda memiliki minimal 30 dokumen PDF putusan pengadilan di dalam folder `data/pdf/` sebelum memulai pipeline ini.
+**Catatan:** Pastikan memiliki minimal 30 dokumen PDF putusan pengadilan di dalam folder `data/pdf/` sebelum memulai pipeline ini.
